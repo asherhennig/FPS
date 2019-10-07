@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 398}
+  m_MinSize: {x: 950, y: 324}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 324}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 917, y: 348}
+  m_MinSize: {x: 817, y: 274}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 73
+  controlID: 93
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 965
     height: 947
-  m_MinSize: {x: 202, y: 348}
+  m_MinSize: {x: 102, y: 248}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 156
+  controlID: 94
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,16 +240,16 @@ MonoBehaviour:
     y: 0
     width: 965
     height: 563
-  m_MinSize: {x: 202, y: 224}
+  m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 22}
   - {fileID: 17}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 3
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,16 +358,50 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 1107106368231947288, guid: 5246df4ae686c7549842d4d9d900fc6f, type: 2}
+    - {fileID: 1107241755333916760, guid: 7f21978f03d2da24ea16e1df48fbbc67, type: 2}
+    - {fileID: 1107241755333916760, guid: 21e2f0038982fd74a97103c0ba6bfe87, type: 2}
+    - {fileID: 1107241755333916760, guid: 2aac6efe75b7ea34f8eff781428b5c1d, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.6105263
       e01: 0
       e02: 0
-      e03: 0
+      e03: -15.526306
       e10: 0
-      e11: 1
+      e11: 0.6105263
       e12: 0
-      e13: 0
+      e13: 175.6842
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8074211
+      e01: 0
+      e02: 0
+      e03: 53.476437
+      e10: 0
+      e11: 0.8074211
+      e12: 0
+      e13: 153.65988
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.6105263
+      e01: 0
+      e02: 0
+      e03: -15.526306
+      e10: 0
+      e11: 0.6105263
+      e12: 0
+      e13: 175.6842
       e20: 0
       e21: 0
       e22: 1
@@ -377,10 +411,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 5246df4ae686c7549842d4d9d900fc6f,
+  m_AnimatorController: {fileID: 9100000, guid: 2aac6efe75b7ea34f8eff781428b5c1d,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107106368231947288, guid: 5246df4ae686c7549842d4d9d900fc6f,
+  - m_Target: {fileID: 1107241755333916760, guid: 2aac6efe75b7ea34f8eff781428b5c1d,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -422,7 +456,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 13782
+  m_LastSelectedObjectID: 13928
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -911,19 +945,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Animations
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\4hs13\Documents\Game 312\Lab-2_Robot\robotrampage
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c300000
-    m_LastClickedID: 12412
+    m_SelectedIDs: 3c2f0000
+    m_LastClickedID: 12092
     m_ExpandedIDs: 00000000d4270000302a0000e42b00002e2c00007233000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1052,10 +1086,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
