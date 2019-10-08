@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Gun.cs" />
     <Compile Include="Assets\Scripts\GunEquipper.cs" />
     <Compile Include="Assets\Scripts\Pistol.cs" />
+    <Compile Include="Assets\Scripts\Robot.cs" />
     <Compile Include="Assets\Scripts\Shotgun.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/4hs13/Documents/Game 312/Lab-2_Robot/robotrampage/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
