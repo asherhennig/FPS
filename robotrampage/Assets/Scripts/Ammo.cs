@@ -36,6 +36,7 @@ public class Ammo : MonoBehaviour
         tagToAmmo[tag] += ammo;
     }
 
+    //Returns true if Gun has ammo
     public bool HasAmmo(string tag)
     {
         if (!tagToAmmo.ContainsKey(tag))
