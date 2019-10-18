@@ -90,6 +90,8 @@ public class Robot : MonoBehaviour
             robot.Play("Die");
             StartCoroutine("DestroyRobot");
 
+            Game.RemoveEnemy();
+
             GetComponent<AudioSource>().PlayOneShot(deathSound);
         }
         else
