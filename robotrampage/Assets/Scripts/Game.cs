@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class Game : MonoBehaviour
 
     public GameUI gameUI;
     public GameObject player;
+
+    public GameObject gameOverPanel;
+
     public int score;
     public int waveCountdown;
     public bool isGameOver;
@@ -88,6 +93,45 @@ public class Game : MonoBehaviour
             score += 1;
             gameUI.SetScoreText(score);
         }
+    }
+
+    //1
+    public void OnGUI()
+    {
+        if (isGameOver && Cursor.visible == false)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    //2
+    public void GameOver()
+    {
+        isGameOver = true;
+        Time.timeScale = 0;
+        player.GetComponent<FirstPersonController>().enabled = false;
+        player.GetComponent<CharacterController>().enabled = false;
+        gameOverPanel.SetActive(true);
+    }
+
+    //3
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(Constants.SceneBattle);
+        gameOverPanel.SetActive(true);
+    }
+
+    //4
+    public void Exit ()
+    {
+        Application.Quit();
+    }
+
+    //5
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(Constants.SceneMenu);
     }
     // Update is called once per frame
     void Update()
